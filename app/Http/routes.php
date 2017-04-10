@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/suebtas', function () {
     return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
 });
+
+Route::get('/pimwimon', function () {
+    return 'เล่นน้ำสงกรานต์ที่ไหน';
+});
