@@ -18,8 +18,7 @@ Route::get('/', function () {
 Route::get('/suebtas', function () {
     return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
 });
+
 Route::get('/5714110024', function () {
     return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
 });
-
-
