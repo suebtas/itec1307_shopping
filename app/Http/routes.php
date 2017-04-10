@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/5714110026', function () {
+    return 'สงการอยู่บ้าน';
+});
