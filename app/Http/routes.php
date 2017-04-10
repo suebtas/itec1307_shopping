@@ -16,13 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/5714110039', function () {
-<<<<<<< HEAD
-    return view(' 5714110039 ');
-});
-=======
-    return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
-});
->>>>>>> origin/testing-route
-Route::get('/suebtas', function () {
-    return view('5714110039');
+    return 'สวัสดี';
 });
