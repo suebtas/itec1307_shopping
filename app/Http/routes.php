@@ -35,3 +35,7 @@ Route::get('/5814210008', function () {
     return 'pimwimon ';
 });
 
+Route::get('/warakorn', function () {
+});
+
+
