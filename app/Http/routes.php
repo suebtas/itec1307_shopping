@@ -26,13 +26,12 @@ Route::get('/5714110024', function () {
 });
 
 
-=======
-Route::get('/suebtas', function () {
-    return 'abc';
-});
-
->>>>>>> origin/testing-route
 Route::get('/5714110039', function () {
     return 'สวัสดี';
+});
+
+
+Route::get('/5814210008', function () {
+    return 'pimwimon ';
 });
 
