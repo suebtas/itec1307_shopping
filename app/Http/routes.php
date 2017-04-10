@@ -21,7 +21,7 @@ Route::get('/suebtas', function () {
 });
 
 Route::get('/5714110024', function () {
-    return 'Hello World';
+    return 'Hello';
 });
 
 
