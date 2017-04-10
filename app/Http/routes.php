@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/suebtas', function () {
+Route::get('/5714110039', function () {
+<<<<<<< HEAD
     return view(' 5714110039 ');
 });
+=======
+    return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
+});
+>>>>>>> origin/testing-route
