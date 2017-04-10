@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 
+
 Route::get('/suebtas', function () {
     return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
 });
@@ -25,7 +26,13 @@ Route::get('/5714110024', function () {
 });
 
 
+=======
+Route::get('/suebtas', function () {
+    return 'abc';
+});
+
+>>>>>>> origin/testing-route
 Route::get('/5714110039', function () {
     return 'สวัสดี';
 });
->>>>>>> origin/testing-route
+
