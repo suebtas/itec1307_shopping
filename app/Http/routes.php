@@ -15,11 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/suebtas', function () {
     return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
 });
+
 Route::get('/5714110024', function () {
     return 'Hello World';
 });
 
 
+Route::get('/5714110039', function () {
+    return 'สวัสดี';
+});
+>>>>>>> origin/testing-route
