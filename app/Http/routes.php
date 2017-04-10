@@ -36,6 +36,7 @@ Route::get('/5814210008', function () {
 });
 
 Route::get('/warakorn', function () {
+    return 'asdasd';
 });
 
 
