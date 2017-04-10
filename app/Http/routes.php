@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/suebtas', function () {
+    return 'abc';
+});
+
 Route::get('/5714110039', function () {
     return 'สวัสดี';
 });
