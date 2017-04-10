@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/suebtas', function () {
+    return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
+});
