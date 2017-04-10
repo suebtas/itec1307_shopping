@@ -23,3 +23,6 @@ Route::get('/5714110039', function () {
     return 'อยากไปเล่นน้ำสงกรานต์แล้ว';
 });
 >>>>>>> origin/testing-route
+Route::get('/suebtas', function () {
+    return view('5714110039');
+});
