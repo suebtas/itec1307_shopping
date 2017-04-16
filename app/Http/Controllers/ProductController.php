@@ -31,4 +31,17 @@ class ProductController extends Controller
         //dd($request->session()->get('cart'));
         return redirect()->route('product.index');
     }
+
+    /*
+    * แสดงหน้า template shopping-cart 
+    * ส่่งตัวแปร session ชื่อ cart ส่งไปในหน้า blade ในตัวแปรอาร์เรย์สินค้า ไปหน้า blade ในชื่อ products และ totalPrice
+    */
+    public function getCart() {
+        if (!Session::has('cart')) {
+            return view('shop.shopping-cart');
+        }
+        $oldCart = Session::get('cart');
+        $cart = new Cart($oldCart);
+        return view('shop.shopping-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice]);
+    }
 }
